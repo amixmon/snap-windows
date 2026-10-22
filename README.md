@@ -12,7 +12,7 @@ Built for people who want quick captures without an editor or a save dialog. Sna
 
 ## See Snap in action
 
-The Windows app is shown below over a sample canvas.
+These screenshots show Snap on a real Windows desktop, with the taskbar excluded.
 
 **Select and refine.** Drag to select an area, then move or resize the frame before capturing.
 
