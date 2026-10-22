@@ -1,0 +1,17 @@
+.tools/
+**/bin/
+**/obj/
+dist/
+artifacts/
+.vs/
+*.user
+.idea/
+*.suo
+*.log
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.pem
+*.key

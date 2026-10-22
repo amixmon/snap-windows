@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>Snap</AssemblyName>
+    <RootNamespace>Snap</RootNamespace>
+    <ApplicationIcon>Assets\Snap-app.ico</ApplicationIcon>
+    <Title>Snap</Title>
+    <Product>Snap</Product>
+    <Description>Simple screenshots and screen recording for Windows.</Description>
+    <Version>0.1.0</Version>
+    <StartupObject>Snap.App</StartupObject>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <!-- This is a WPF application; its manifest owns DPI awareness. -->
+    <NoWarn>$(NoWarn);WFAC010</NoWarn>
+  </PropertyGroup>
+</Project>
