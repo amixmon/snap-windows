@@ -8,6 +8,22 @@ Opening Snap takes you straight to a dimmed desktop with selection handles and a
 
 Built for people who want quick captures without an editor or a save dialog. Snap is written in C# with WPF and .NET 8.
 
+## See Snap in action
+
+The Windows app is shown below over a sample canvas.
+
+**Select and refine.** Drag to select an area, then move or resize the frame before capturing.
+
+![Snap screenshot overlay with a selected area, resize handles, and capture bar](docs/screenshots/selection.png)
+
+**Switch to recording.** Choose video mode and use the red capture button to record a silent MP4.
+
+![Snap in recording mode with the video toggle selected and a red capture button](docs/screenshots/recording.png)
+
+**Keep the result.** PNG screenshots save automatically to **Pictures/Screenshots** and copy to the clipboard for pasting.
+
+![A PNG screenshot captured with Snap](docs/screenshots/captured.png)
+
 ## Get Snap
 
 **Source code is available now. Public installer and portable downloads are not published yet.** For now, [build Snap from source](#build-from-source). The setup wizard and portable package can be generated locally using the included build scripts.
