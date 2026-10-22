@@ -8,18 +8,18 @@ Opening Snap takes you straight to a dimmed desktop with selection handles and a
 
 Built for people who want quick captures without an editor or a save dialog. Snap is written in C# with WPF and .NET 8.
 
-## Download and install
+## Get Snap
 
-**[Download the latest release](https://github.com/amixmon/snap-windows/releases/latest)**
+**Source code is available now. Public installer and portable downloads are not published yet.** For now, [build Snap from source](#build-from-source). The setup wizard and portable package can be generated locally using the included build scripts.
 
 Requires **Windows 10 version 2004 (build 19041) or later, or Windows 11, on an x64 PC**. ARM64 and 32-bit Windows are not supported by these packages.
 
-| Download | How to use it |
+| Local build output | How to use it |
 | --- | --- |
 | `Snap-Setup-0.1.0-x64.exe` | Run the setup wizard. Installs for your Windows account with Start menu shortcuts, an optional desktop shortcut, and an uninstaller. |
 | `Snap-Windows-x64.zip` | Extract the whole ZIP and open `Snap/Snap.exe`. Keep all files in the extracted folder together. |
 
-Both release packages include the .NET runtime and work offline. The app and installer are currently **unsigned**; Windows may display an unknown-publisher or SmartScreen reputation warning. Check the release source and published SHA-256 checksum before installing.
+Self-contained builds include the .NET runtime and work offline. The app and installer are currently **unsigned**; Windows may display an unknown-publisher or SmartScreen reputation warning.
 
 Uninstall through **Settings → Apps → Installed apps → Snap**. Your screenshots and recordings are preserved.
 
