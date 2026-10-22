@@ -10,6 +10,10 @@ $project = Join-Path $PSScriptRoot 'src\Snap\Snap.csproj'
 $output = Join-Path $PSScriptRoot 'dist\Snap'
 & $sdk publish $project -c Release -r win-x64 --self-contained $SelfContained.IsPresent -o $output -p:PublishSingleFile=false "-p:RestoreConfigFile=$PSScriptRoot\NuGet.Config"
 if ($LASTEXITCODE -ne 0) { throw 'Snap build failed.' }
+$projectLicense = Join-Path $PSScriptRoot 'LICENSE'
+if (Test-Path -LiteralPath $projectLicense) {
+    Copy-Item -LiteralPath $projectLicense -Destination (Join-Path $output 'LICENSE.txt')
+}
 if ($SelfContained) {
     $config = Get-Content -LiteralPath (Join-Path $output 'Snap.runtimeconfig.json') -Raw | ConvertFrom-Json
     $runtimeVersion = ($config.runtimeOptions.includedFrameworks | Where-Object name -eq 'Microsoft.NETCore.App').version
