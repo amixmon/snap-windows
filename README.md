@@ -4,6 +4,8 @@
 
 **Open. Select. Capture.** A simple, native Windows screenshot and screen recording tool inspired by the modern Ubuntu / GNOME capture overlay.
 
+[![Download Snap for Windows](docs/assets/download-windows.svg)](https://github.com/amixmon/snap-windows/releases/download/v0.1.0/Snap-Setup-0.1.0-x64.exe)
+
 Opening Snap takes you straight to a dimmed desktop with selection handles and a small capture bar. Choose an area, screen, or window, adjust the frame, and capture. Screenshots save automatically and copy to the clipboard, so you can get back to what you were doing.
 
 Built for people who want quick captures without an editor or a save dialog. Snap is written in C# with WPF and .NET 8.
@@ -26,14 +28,16 @@ The Windows app is shown below over a sample canvas.
 
 ## Get Snap
 
-**Source code is available now. Public installer and portable downloads are not published yet.** For now, [build Snap from source](#build-from-source). The setup wizard and portable package can be generated locally using the included build scripts.
+**[Download the Windows installer](https://github.com/amixmon/snap-windows/releases/download/v0.1.0/Snap-Setup-0.1.0-x64.exe)** for the easiest setup. Prefer a portable app? [Download the ZIP](https://github.com/amixmon/snap-windows/releases/download/v0.1.0/Snap-Windows-x64.zip), or [build Snap from source](#build-from-source).
 
 Requires **Windows 10 version 2004 (build 19041) or later, or Windows 11, on an x64 PC**. ARM64 and 32-bit Windows are not supported by these packages.
 
-| Local build output | How to use it |
+| Download | How to use it |
 | --- | --- |
-| `Snap-Setup-0.1.0-x64.exe` | Run the setup wizard. Installs for your Windows account with Start menu shortcuts, an optional desktop shortcut, and an uninstaller. |
-| `Snap-Windows-x64.zip` | Extract the whole ZIP and open `Snap/Snap.exe`. Keep all files in the extracted folder together. |
+| [Snap-Setup-0.1.0-x64.exe](https://github.com/amixmon/snap-windows/releases/download/v0.1.0/Snap-Setup-0.1.0-x64.exe) — recommended | Run the setup wizard. Installs for your Windows account with Start menu shortcuts, an optional desktop shortcut, and an uninstaller. |
+| [Snap-Windows-x64.zip](https://github.com/amixmon/snap-windows/releases/download/v0.1.0/Snap-Windows-x64.zip) | Extract the whole ZIP and open `Snap/Snap.exe`. Keep all files in the extracted folder together. |
+
+[Release notes](https://github.com/amixmon/snap-windows/releases/tag/v0.1.0) · [SHA-256 checksums](https://github.com/amixmon/snap-windows/releases/download/v0.1.0/SHA256SUMS.txt)
 
 Self-contained builds include the .NET runtime and work offline. The app and installer are currently **unsigned**; Windows may display an unknown-publisher or SmartScreen reputation warning.
 

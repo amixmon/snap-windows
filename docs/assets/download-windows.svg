@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="286" height="64" viewBox="0 0 286 64" role="img" aria-labelledby="title desc">
+  <title id="title">Download for Windows</title>
+  <desc id="desc">Snap 0.1.0 for Windows 10 and 11, x64.</desc>
+  <rect width="286" height="64" rx="12" fill="#D84A10"/>
+  <g fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M31 19v18m-6-6 6 6 6-6"/>
+    <path d="M21 39v5h20v-5"/>
+  </g>
+  <g fill="#fff" font-family="Segoe UI, Arial, sans-serif">
+    <text x="57" y="29" font-size="17" font-weight="600">Download for Windows</text>
+    <text x="57" y="47" font-size="11" opacity=".9">Windows 10 / 11 · x64 · v0.1.0</text>
+  </g>
+</svg>
